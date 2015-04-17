@@ -24,10 +24,10 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<spree_core>, ["~> 3.0.0.rc1"])
-      s.add_runtime_dependency(%q<spree_backend>, ["~> 3.0.0.rc1"])
-      s.add_runtime_dependency(%q<spree_frontend>, ["~> 3.0.0.rc1"])
-      s.add_runtime_dependency(%q<spree_api>, ["~> 3.0.0.rc1"])
+      s.add_runtime_dependency(%q<spree_core>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<spree_backend>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<spree_frontend>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<spree_api>, ["~> 3.0.0"])
       s.add_development_dependency(%q<capybara>, ["~> 1.1.4"])
       s.add_development_dependency(%q<coffee-rails>, [">= 0"])
       s.add_development_dependency(%q<factory_girl>, ["~> 4.3.0"])
@@ -37,10 +37,10 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<spree_multi_currency>, [">= 0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
     else
-      s.add_dependency(%q<spree_core>, ["~> 3.0.0.rc1"])
-      s.add_dependency(%q<spree_backend>, ["~> 3.0.0.rc1"])
-      s.add_dependency(%q<spree_frontend>, ["~> 3.0.0.rc1"])
-      s.add_dependency(%q<spree_api>, ["~> 3.0.0.rc1"])
+      s.add_dependency(%q<spree_core>, ["~> 3.0.0"])
+      s.add_dependency(%q<spree_backend>, ["~> 3.0.0"])
+      s.add_dependency(%q<spree_frontend>, ["~> 3.0.0"])
+      s.add_dependency(%q<spree_api>, ["~> 3.0.0"])
       s.add_dependency(%q<capybara>, ["~> 1.1.4"])
       s.add_dependency(%q<coffee-rails>, [">= 0"])
       s.add_dependency(%q<factory_girl>, ["~> 4.3.0"])
@@ -51,10 +51,10 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<sqlite3>, [">= 0"])
     end
   else
-    s.add_dependency(%q<spree_core>, ["~> 3.0.0.rc1"])
-    s.add_dependency(%q<spree_backend>, ["~> 3.0.0.rc1"])
-    s.add_dependency(%q<spree_frontend>, ["~> 3.0.0.rc1"])
-    s.add_dependency(%q<spree_api>, ["~> 3.0.0.rc1"])
+    s.add_dependency(%q<spree_core>, ["~> 3.0.0"])
+    s.add_dependency(%q<spree_backend>, ["~> 3.0.0"])
+    s.add_dependency(%q<spree_frontend>, ["~> 3.0.0"])
+    s.add_dependency(%q<spree_api>, ["~> 3.0.0"])
     s.add_dependency(%q<capybara>, ["~> 1.1.4"])
     s.add_dependency(%q<coffee-rails>, [">= 0"])
     s.add_dependency(%q<factory_girl>, ["~> 4.3.0"])
